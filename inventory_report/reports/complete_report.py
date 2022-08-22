@@ -11,7 +11,8 @@ class CompleteReport(SimpleReport):
 
         quantidade_por_empresa = []
         for nome_empresa in nomes_empresa:
-            dado_a_ser_inserido = (nome_empresa, nomes_empresa.count(nome_empresa))
+            dado_a_ser_inserido = (nome_empresa,
+                                   nomes_empresa.count(nome_empresa))
             if dado_a_ser_inserido not in quantidade_por_empresa:
                 quantidade_por_empresa.append(dado_a_ser_inserido)
 
