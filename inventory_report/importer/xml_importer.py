@@ -6,7 +6,7 @@ from inventory_report.importer.importer import Importer
 
 
 class XmlImporter(Importer):
-  
+
     @staticmethod
     def import_data(file_name):
         file_ext = pathlib.Path(file_name).suffix

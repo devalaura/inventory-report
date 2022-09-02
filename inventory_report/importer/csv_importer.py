@@ -18,5 +18,5 @@ class CsvImporter(Importer):
                 data_dict = []
                 for row in csv_data:
                     data_dict.append(dict(zip(header, row)))
-                
+
             return data_dict
