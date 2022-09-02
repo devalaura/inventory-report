@@ -53,4 +53,3 @@ def test_decorar_relatorio():
     red_value = "\033[31mForces of Nature\033[0m"
 
     assert red_value in colored_report
-    
