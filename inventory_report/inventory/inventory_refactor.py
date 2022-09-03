@@ -12,9 +12,9 @@ class InventoryRefactor:
         self.data.extend(self.importer.import_data(file_name))
 
         if file_type == "simples":
-            SimpleReport.generate(self.data)
+            return SimpleReport.generate(self.data)
         elif file_type == "completo":
-            CompleteReport.generate(self.data)
+            return CompleteReport.generate(self.data)
 
     def __iter__(self):
         return InventoryIterator(self.data)
