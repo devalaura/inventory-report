@@ -14,4 +14,3 @@ class InventoryIterator(Iterator):
             self.current_data_index += 1
 
         return data
-        

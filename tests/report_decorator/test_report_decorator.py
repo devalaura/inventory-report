@@ -48,7 +48,7 @@ def test_decorar_relatorio():
     ]
 
     for value in blue_values:
-        assert value in colored_report 
+        assert value in colored_report
 
     red_value = "\033[31mForces of Nature\033[0m"
 
